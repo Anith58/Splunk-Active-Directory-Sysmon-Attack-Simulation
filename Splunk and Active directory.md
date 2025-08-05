@@ -45,6 +45,12 @@ sudo /opt/splunk/bin/splunk enable listen 9997 -auth admin:changeme
 ```
 
 > ✅ Make sure port `9997` is open on the Ubuntu server.
+> ## ✅ Post-Installation Tips
+
+- Add firewall rules if using `ufw`:
+  ```bash
+  sudo ufw allow 8000/tcp
+  ```
 
 ---
 
