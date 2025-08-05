@@ -1,0 +1,16 @@
+[WinEventLog://System]
+index = endpoint
+disabled = 0
+
+[WinEventLog://Application]
+index = endpoint
+disabled = 0
+
+[WinEventLog://Security]
+index = endpoint
+disabled = 0
+
+[WinEventLog://Microsoft-Windows-Sysmon/Operational]
+index = endpoint
+disabled = 0
+renderXml = false
