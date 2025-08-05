@@ -42,6 +42,12 @@ tar -xvzf splunk.tgz
 sudo mv splunk /opt/
 sudo /opt/splunk/bin/splunk start --accept-license
 sudo /opt/splunk/bin/splunk enable listen 9997 -auth admin:changeme
+
+```
+To enable Splunk as a boot-time service:
+
+```bash
+sudo /opt/splunk/bin/splunk enable boot-start
 ```
 
 > ✅ Make sure port `9997` is open on the Ubuntu server.
@@ -57,6 +63,7 @@ sudo /opt/splunk/bin/splunk enable listen 9997 -auth admin:changeme
 ### 2. Install Splunk Universal Forwarder on Windows (Both Server & 10)
 
 Download link: https://www.splunk.com/en_us/download/universal-forwarder.html
+
 
 Example `outputs.conf`:
 
