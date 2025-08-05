@@ -18,6 +18,22 @@ This repository documents the steps I followed to build a mini SOC (Security Ope
 
 ## 🔧 Setup Steps
 
+### 1️⃣ Install Operating Systems
+
+- **Ubuntu Server**  
+  Download and install Ubuntu Server (22.04 LTS or similar):  
+  https://ubuntu.com/download/server
+
+- **Windows Server 2022**  
+  Obtain through Microsoft evaluation center or VM image:  
+  https://www.microsoft.com/en-us/evalcenter/evaluate-windows-server-2022
+
+- **Windows 10 (Client)**  
+  Download from Microsoft’s evaluation page or via Insider Preview:  
+  https://www.microsoft.com/software-download/windows10
+
+---
+
 ### 1. Install Splunk Enterprise on Ubuntu
 
 ```bash
