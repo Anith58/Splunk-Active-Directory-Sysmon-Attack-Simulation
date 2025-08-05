@@ -172,7 +172,7 @@ Use community config: https://github.com/SwiftOnSecurity/sysmon-config
 Use Hydra to test brute-force:
 
 ```bash
-hydra -l user -P passwords.txt rdp://192.168.10.130
+hydra -l user -P passwords.txt rdp://<target-ip>
 ```
 
 Then search failed logins in Splunk:
@@ -190,13 +190,7 @@ index=endpoint EventCode=4625
 - Captured Sysmon events: process creation (EventCode 1), network connection (EventCode 3)
 - Hands-on troubleshooting made the concepts real
 
----
 
-## 🔗 My GitHub: [github.com/Anith58](https://github.com/Anith58)
-
-Full config files and screenshots coming soon!
-
----
 
 ## 📌 To Do
 
